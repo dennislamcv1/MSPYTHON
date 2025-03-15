@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Churn Prediction Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+    <style>
+        #churnChart1,
+        #churnChart2 {
+            width: 400px;
+            height: 500px;
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .large-text {
+            font-size: 24px;
+            /* Adjust the size as needed */
+            font-weight: bold;
+            /* Make the text bold */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Churn Prediction Overview</h1>
+
+    <!-- Display the average churn probability -->
+    <p class="large-text">Average Churn Probability: {{ avg_churn_prob | round(2) }}</p>
+
+    <p class="large-text">High-risk customers: {{ high_risk_customers }}</p>
+
+    <div id="churnChart1"></div>
+    <div id="churnChart2"></div>
+
+    <script>
+        const churnRateByState = {{ churn_rate_by_state | tojson }};
+        const highRiskByState = {{ high_risk_by_state | tojson }};
+
+        // Chart 1: Churn Rate by State
+        const data1 = [
+            {
+                x: churnRateByState.map(state => state.state),
+                y: churnRateByState.map(state => state.churn_rate),
+                type: 'bar'
+            }
+        ];
+
+        const layout1 = {
+            title: 'Churn Rate by State',
+            xaxis: { title: 'State' },
+            yaxis: { title: 'Churn Rate' }
+        };
+
+        Plotly.newPlot('churnChart1', data1, layout1);
+
+        // Chart 2: High Risk by State
+        const data2 = [
+            {
+                x: highRiskByState.map(state => state.state),
+                // YOUR CODE HERE STEP 4.1
+                type: 'bar'
+            }
+        ];
+
+        const layout2 = {
+            title: 'High Risk by State',
+            xaxis: { title: 'State' },
+            yaxis: { title: 'High Risk' }
+        };
+
+        Plotly.newPlot('churnChart2', data2, layout2);
+    </script>
+</body>
+
+</html>

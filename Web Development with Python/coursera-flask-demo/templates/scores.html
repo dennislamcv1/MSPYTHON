@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Soccer Scores</title>
+</head>
+<body>
+    <h1>Live Soccer Scores</h1>
+    {% if scores %}
+        <ul>
+        {% for match in scores %}
+            <li>{{ match['homeTeam']['name'] }} {{ match['score']['fullTime']['homeTeam'] }} - {{ match['score']['fullTime']['awayTeam'] }} {{ match['awayTeam']['name'] }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No live scores available.</p>
+    {% endif %}
+    <a href="/">Back to home page</a>
+</body>
+</html>
