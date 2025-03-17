@@ -1,0 +1,229 @@
+{
+    "symptoms": {
+        "headache": [
+            "common cold",
+            "flu",
+            "migraine",
+            "tension headache",
+            "sinusitis"
+        ],
+        "fever": [
+            "common cold",
+            "flu",
+            "infection",
+            "strep throat"
+        ],
+        "cough": [
+            "common cold",
+            "flu",
+            "bronchitis",
+            "pneumonia",
+            "allergies"
+        ],
+        "sneezing": [
+            "common cold",
+            "flu",
+            "allergies"
+        ],
+        "fatigue": [
+            "common cold",
+            "flu",
+            "stress",
+            "lack of sleep",
+            "anemia"
+        ],
+        "nausea": [
+            "flu",
+            "food poisoning",
+            "stomach virus",
+            "migraine",
+            "pregnancy"
+        ],
+        "vomiting": [
+            "flu",
+            "food poisoning",
+            "stomach virus",
+            "motion sickness"
+        ],
+        "diarrhea": [
+            "stomach virus",
+            "food poisoning",
+            "irritable bowel syndrome",
+            "lactose intolerance"
+        ],
+        "rash": [
+            "allergies",
+            "chickenpox",
+            "measles",
+            "eczema",
+            "poison ivy"
+        ],
+        "dizziness": [
+            "dehydration",
+            "inner ear infection",
+            "low blood sugar",
+            "vertigo"
+        ],
+        "weakness": [
+            "muscle strain",
+            "flu",
+            "electrolyte imbalance",
+            "multiple sclerosis"
+        ],
+        "insomnia": [
+            "stress",
+            "anxiety",
+            "depression",
+            "sleep apnea"
+        ],
+        "itchy": [
+            "allergies",
+            "eczema",
+            "dry skin",
+            "psoriasis"
+        ],
+        "bloating": [
+            "irritable bowel syndrome",
+            "lactose intolerance",
+            "food intolerance",
+            "celiac disease",
+            "constipation"
+        ],
+        "chills": [
+            "flu",
+            "common cold",
+            "pneumonia",
+            "infection",
+            "sepsis"
+        ],
+        "constipation": [
+            "irritable bowel syndrome",
+            "dehydration",
+            "lack of fiber",
+            "medication side effects",
+            "hypothyroidism"
+        ],
+        "sweating": [
+            "anxiety",
+            "menopause",
+            "hyperthyroidism",
+            "low blood sugar",
+            "infection"
+        ],
+        "thirst": [
+            "dehydration",
+            "diabetes",
+            "kidney problems",
+            "medication side effects"
+        ],
+        "tremors": [
+            "anxiety",
+            "Parkinson's disease",
+            "multiple sclerosis",
+            "alcohol withdrawal",
+            "low blood sugar"
+        ],
+        "weight gain": [
+            "thyroid disorders",
+            "diabetes",
+            "depression",
+            "eating disorders",
+            "certain medications"
+        ],
+        "weight loss": [
+            "thyroid disorders",
+            "diabetes",
+            "depression",
+            "eating disorders",
+            "cancer",
+            "certain medications"
+        ],
+        "burning": [
+            "urinary tract infection",
+            "heartburn",
+            "acid reflux",
+            "sunburn",
+            "nerve pain"
+        ],
+        "cramps": [
+            "menstrual cramps",
+            "muscle cramps",
+            "dehydration",
+            "irritable bowel syndrome"
+        ],
+        "discharge": [
+            "vaginal infection",
+            "STI",
+            "ear infection"
+        ],
+        "pain": [
+            "arthritis",
+            "injury",
+            "infection",
+            "nerve damage",
+            "cancer"
+        ],
+        "swelling": [
+            "injury",
+            "inflammation",
+            "infection",
+            "lymphedema",
+            "heart failure"
+        ],
+        "tingling": [
+            "nerve damage",
+            "vitamin deficiency",
+            "multiple sclerosis",
+            "diabetes"
+        ]
+    },
+    "recommendations": {
+        "common cold": "Rest, stay hydrated, and consider over-the-counter medications for symptom relief.",
+        "flu": "Rest, stay hydrated, and consider over-the-counter medications for symptom relief.",
+        "migraine": "Rest in a quiet, dark room. Apply a cold compress to your forehead. Consider over-the-counter pain relievers.",
+        "tension headache": "Apply a warm compress to your neck and shoulders. Practice stress management techniques. Consider over-the-counter pain relievers.",
+        "sinusitis": "Use a humidifier or saline nasal spray. Consider over-the-counter pain relievers and decongestants.",
+        "infection": "Consult a doctor for diagnosis and appropriate treatment, which may include antibiotics.",
+        "strep throat": "Consult a doctor for diagnosis and appropriate treatment, which usually involves antibiotics.",
+        "tonsillitis": "Gargle with salt water and drink warm liquids. Consider over-the-counter pain relievers.",
+        "allergies": "Identify and avoid allergens. Consider over-the-counter antihistamines.",
+        "bronchitis": "Rest, stay hydrated, and use a humidifier. Consider over-the-counter pain relievers and cough suppressants.",
+        "pneumonia": "Consult a doctor for diagnosis and appropriate treatment, which may include antibiotics.",
+        "muscle strain": "Rest the affected muscle, apply ice, and consider over-the-counter pain relievers.",
+        "stress": "Practice stress management techniques such as exercise, meditation, or deep breathing.",
+        "lack of sleep": "Aim for 7-9 hours of quality sleep per night. Establish a regular sleep schedule.",
+        "food poisoning": "Stay hydrated and rest. Consider over-the-counter medications for symptom relief.",
+        "stomach virus": "Stay hydrated and rest. Consider over-the-counter medications for symptom relief.",
+        "irritable bowel syndrome": "Consult a doctor for diagnosis and management strategies. Dietary changes and stress management may help.",
+        "chickenpox": "Consult a doctor for diagnosis and treatment. Isolate yourself to prevent spreading the virus.",
+        "measles": "Consult a doctor for diagnosis and treatment. Isolate yourself to prevent spreading the virus.",
+        "eczema": "Keep your skin moisturized. Avoid triggers that worsen your eczema.",
+        "asthma": "Use your prescribed inhaler as directed. Avoid triggers that worsen your asthma.",
+        "heart attack": "Seek immediate medical attention. Call emergency services or go to the nearest hospital.",
+        "angina": "Consult a doctor for diagnosis and treatment. Follow your doctor's recommendations for managing your condition.",
+        "anxiety": "Practice relaxation techniques such as deep breathing and meditation. Seek professional help if anxiety is persistent or severe.",
+        "appendicitis": "Seek immediate medical attention. Call emergency services or go to the nearest hospital.",
+        "stomach ulcer": "Consult a doctor for diagnosis and treatment. Avoid foods and medications that irritate your stomach.",
+        "menstrual cramps": "Apply heat to your lower abdomen. Consider over-the-counter pain relievers.",
+        "lactose intolerance": "Avoid consuming lactose-containing products. Consider lactase supplements.",
+        "food intolerance": "Identify and avoid trigger foods. Consult a doctor or registered dietitian for guidance.",
+        "celiac disease": "Maintain a strict gluten-free diet. Consult a doctor or registered dietitian for management.",
+        "sepsis": "Seek immediate medical attention. Sepsis is a life-threatening condition.",
+        "hypothyroidism": "Consult a doctor for diagnosis and treatment, which typically involves hormone replacement therapy.",
+        "menopause": "Discuss hormone replacement therapy or other management options with your doctor. Manage symptoms with lifestyle changes.",
+        "hyperthyroidism": "Consult a doctor for diagnosis and treatment, which may include medication, radioactive iodine therapy, or surgery.",
+        "Parkinson's disease": "Consult a neurologist for diagnosis and a comprehensive treatment plan.",
+        "multiple sclerosis": "Consult a neurologist for diagnosis and a comprehensive treatment plan.",
+        "alcohol withdrawal": "Seek medical supervision for safe detoxification. Support groups and therapy can aid in recovery.",
+        "urinary tract infection": "Consult a doctor for diagnosis and treatment, which usually involves antibiotics.",
+        "heartburn": "Avoid trigger foods, eat smaller meals, and don't lie down immediately after eating. Consider over-the-counter antacids.",
+        "acid reflux": "Similar to heartburn, avoid trigger foods, eat smaller meals, and don't lie down immediately after eating. Consult a doctor if symptoms persist.",
+        "sunburn": "Apply cool compresses and aloe vera. Avoid further sun exposure. Use sunscreen regularly.",
+        "nerve pain": "Consult a doctor for diagnosis and treatment, which may include medication, physical therapy, or other therapies.",
+        "arthritis": "Consult a doctor for diagnosis and a treatment plan, which may include medication, physical therapy, and lifestyle changes.",
+        "lymphedema": "Consult a doctor or lymphedema specialist for management, which may include compression therapy and specialized exercises.",
+        "heart failure": "Consult a cardiologist for diagnosis and a comprehensive treatment plan, which may include medication, lifestyle changes, and other therapies.",
+        "vaginal infection": "Consult a doctor for diagnosis and treatment, which may depend on the type of infection.",
+        "STI": "Consult a doctor for diagnosis and treatment."
+    }
+}
