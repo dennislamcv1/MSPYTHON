@@ -1,0 +1,17 @@
+Do not modify this file. It is used for autograding the processed data from the lab.
+
+Average Churn Probability: 0.1451703414264648
+
+High-Risk Customers: 293
+
+Churn Rate by State:
+   state  churn_rate
+0    ME    0.144928
+1    NH    0.159487
+2    VT    0.130931
+
+High-Risk Customers by State:
+   state  high_risk
+0    ME        160
+1    NH        174
+2    VT        149

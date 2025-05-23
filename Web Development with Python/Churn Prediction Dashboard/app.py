@@ -4,7 +4,9 @@ from data import calc_data
 
 app = Flask(__name__)
 
+### YOUR CODE HERE ### Step 1.2
 @app.route('/')
+
 def home():
     avg_churn_prob, high_risk_customers, churn_rate_by_state, high_risk_by_state = calc_data()
     return render_template("index.html", 
